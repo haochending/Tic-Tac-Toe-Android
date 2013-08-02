@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/cell11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="180dp" />
+
+    <Button
+        android:id="@+id/cell10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cell11"
+        android:layout_alignBottom="@+id/cell11"
+        android:layout_toLeftOf="@+id/cell11" />
+
+    <Button
+        android:id="@+id/cell12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cell11"
+        android:layout_alignBottom="@+id/cell11"
+        android:layout_toRightOf="@+id/cell11" />
+
+    <Button
+        android:id="@+id/cell01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cell12"
+        android:layout_alignLeft="@+id/cell11" />
+
+    <Button
+        android:id="@+id/cell21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cell11"
+        android:layout_below="@+id/cell11" />
+
+    <Button
+        android:id="@+id/cell00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cell01"
+        android:layout_alignBottom="@+id/cell01"
+        android:layout_alignLeft="@+id/cell10" />
+
+    <Button
+        android:id="@+id/cell02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cell01"
+        android:layout_alignLeft="@+id/cell12" />
+
+    <Button
+        android:id="@+id/cell20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cell21"
+        android:layout_alignBottom="@+id/cell21"
+        android:layout_alignRight="@+id/cell10" />
+
+    <Button
+        android:id="@+id/cell22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cell21"
+        android:layout_alignBottom="@+id/cell21"
+        android:layout_alignLeft="@+id/cell12" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/start_game3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/new_game"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toolbar_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toolbar_text2"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/start_game3"
+        android:text="@string/change_which_player_starts"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/toolbar_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/start_game3"
+        android:layout_alignRight="@+id/toolbar_text1"
+        android:text="@string/or_make_first_move"
+        android:textSize="12sp" />
+
+</RelativeLayout>
